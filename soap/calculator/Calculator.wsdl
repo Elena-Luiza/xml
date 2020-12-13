@@ -3,7 +3,7 @@
             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
             xmlns:tns="http://localhost/xml/soap/calculator/Calculator"
             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-            xmlxsd="http://www.w3.org/2001/XMLSchema"
+            xml:xsd="http://www.w3.org/2001/XMLSchema"
             name="Calculator"
             targetNamespace="http://localhost/xml/soap/calculator/Calculator">
 <wsdl:types>
@@ -63,6 +63,6 @@
 <wsdl:service name="Calculator">
     <wsdl:port binding="tns:CalculatorSOAP" name="tns:CalculatorSOAP">
         <soap:address location="http://localhost/xml/soap/server.php"/>
-    <wsdl:port>
+    </wsdl:port>
 </wsdl:service>
 </wsdl:definitions>
