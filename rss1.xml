@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<channel>
+  <item>
+    <title>Economie</title>
+    <link>http://www.hotnews.ro/rss/economie</link>
+    <description>Aceasta este o descriere a feed-ului despre economie.</description>
+  </item>
+  <item>
+    <title>General</title>
+    <link>http://www.hotnews.ro/rss</link>
+    <description>Aceasta este o descriere a feed-ului.</description>
+  </item>
+  <item>
+    <title>Life</title>
+    <link>http://www.hotnews.ro/rss/life</link>
+    <description>Aceasta este o descriere a feed-ului despre viata.</description>
+  </item>
+</channel>
